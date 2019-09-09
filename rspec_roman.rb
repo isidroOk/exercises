@@ -15,6 +15,7 @@ describe NumberA do
   it "finds the equivalent roman number" do
     arabic_number = NumberA.new
     expect(arabic_number.arabic_to_roman(5)).to eq("X") #here we have Arrange, Act and Assert together
+
     expect(arabic_number.arabic_to_roman(15)).to eq("MD")
     expect(arabic_number.arabic_to_roman(5)).to eq("I")
   end
